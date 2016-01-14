@@ -64,7 +64,7 @@ def read_IP(url):
 
 
 	username = 'zstaff'
-	password = 'Z33c0nZ@dm1n'
+	password = '***********'
 	p = urllib2.HTTPPasswordMgrWithDefaultRealm()
 	p.add_password(None, url, username, password)
 	handler = urllib2.HTTPBasicAuthHandler(p)
