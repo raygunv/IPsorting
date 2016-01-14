@@ -76,7 +76,7 @@ def read_IP(url):
 def write_sql(data):
 
 
-	db = MySQLdb.connect("192.185.46.179","mrgood_zeecon","Z33c0nZ@dm1n","mrgood_zipdb" )
+	db = MySQLdb.connect("192.185.******","mrgood_zeecon","*********","mrgood_zipdb" )
 	cursor = db.cursor()
 	cursor.execute('DROP TABLE IF EXISTS %s' %data[1])
 
