@@ -88,7 +88,7 @@ def write_sql(data):
 	#writes to the database the two dictionaries to a table with the name of the string given
 
 	print data[0]
-	db = MySQLdb.connect("192.185.46.179","mrgood_zeecon","Z33c0nZ@dm1n","mrgood_zipdb" )
+	db = MySQLdb.connect("192.185.******","mrgood_zeecon","*********","mrgood_zipdb" )
 	cursor = db.cursor()
 	cursor.execute('DROP TABLE IF EXISTS %s' %data[1])
 	sql ="""CREATE TABLE %s  (IP TEXT, AVAILIBILITY INT, TIME INT)""" %data[1]
